@@ -170,3 +170,39 @@ header button:hover {}
 
 
 /* Banner Section End */
+
+
+/* Players Section Start */
+
+.players-section {}
+
+.players {
+    display: grid;
+    grid-template-columns: repear(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 70px 0;
+}
+
+.player {
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+
+.player img {
+    margin-bottom: 20px;
+}
+
+.player h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.player p {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* Players Section End */
