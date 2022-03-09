@@ -206,3 +206,55 @@ header button:hover {}
 
 
 /* Players Section End */
+
+
+/* Highlight Section Start */
+
+.highlight-section {}
+
+.highlight-section .flex {
+    align-items: center;
+}
+
+.highlight-content {
+    flex-grow: 1;
+    padding-right: 30px;
+}
+
+.highlight-content h2 {
+    font-size: 3em;
+    width: 95%;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.highlight-content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    width: 80%;
+}
+
+.highlight-content a {
+    padding: 13px 32px;
+    color: #fff;
+    background-color: var(--btn-background);
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+.highlight-content a i {
+    margin-left: 10px;
+}
+
+.highlight-image {
+    flex-grow: 1;
+}
+
+.highlight-image img {
+    padding-left: 30px;
+}
+
+
+/* Highlight Section End */
