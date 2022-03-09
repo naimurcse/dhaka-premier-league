@@ -1,0 +1,77 @@
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Poppins:wght@300;400;500;700&display=swap');
+
+/* Custom CSS */
+
+:root {
+    /* Colors */
+    --primary-color: #2D25A0;
+    --heading-color: #18191F;
+    --btn-background: #E02C6D;
+    --text-color: #6C6C6C;
+    /* Fonts */
+    --primary-font: 'Poppins', sans-serif;
+    --footer-font: 'Niconne', cursive;
+}
+
+
+/* Utilities Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+
+/* font-family: 'Niconne', cursive; */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color: var(--heading-color);
+}
+
+p {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+
+/* Button */
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: var(--btn-background);
+}
