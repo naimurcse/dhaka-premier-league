@@ -79,14 +79,53 @@ p {
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
-    background-color: var(--btn-background);
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 
 /* Header Start*/
 
-header {}
+header {
+    background-color: var(--primary-color);
+    padding: 26px 0;
+}
+
+header .flex {
+    align-items: center;
+}
+
+header nav {}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 36px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {}
+
+header button {
+    padding: 13px 32px;
+    color: #fff;
+    background-color: var(--btn-background);
+}
+
+header button i {}
+
+header button:hover {}
 
 
 /* Header End*/
