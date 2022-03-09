@@ -129,3 +129,44 @@ header button:hover {}
 
 
 /* Header End*/
+
+
+/* Banner Section Start */
+
+.banner-section {
+    background-color: var(--primary-color);
+    padding: 50px 0;
+}
+
+.banner-section .flex {
+    align-items: center;
+}
+
+.banner-content {}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 45px;
+}
+
+.banner-content button {
+    padding: 13px 32px;
+    color: #fff;
+    background-color: var(--btn-background);
+    display: flex;
+    align-items: center;
+}
+
+.banner-content button i {
+    margin-left: 10px;
+}
+
+.banner-images {}
+
+.banner-images img {
+    width: 600px;
+}
+
+
+/* Banner Section End */
