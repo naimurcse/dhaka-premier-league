@@ -45,6 +45,12 @@ a {
     display: block;
 }
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 /* font-family: 'Niconne', cursive; */
 
@@ -74,4 +80,13 @@ p {
     font-weight: 500;
     text-transform: capitalize;
     background-color: var(--btn-background);
+    border: none;
 }
+
+
+/* Header Start*/
+
+header {}
+
+
+/* Header End*/
