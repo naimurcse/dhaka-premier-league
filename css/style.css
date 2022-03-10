@@ -289,14 +289,19 @@ header button:hover {}
 
 .newsletter-content form {}
 
+.newsletter-content form input[type="email"] {
+    width: 68%;
+    font-size: 16px;
+}
+
 .newsletter-content form input {
     border: none;
     background-color: #e7e7e7;
-    padding: 12px;
+    padding: 13px 10px;
 }
 
 .newsletter-content form input[type="button"] {
-    padding: 12px 32px;
+    padding: 13px 32px;
     color: #fff;
     background-color: var(--btn-background);
     cursor: pointer;
