@@ -143,7 +143,7 @@ header button:hover {}
 }
 
 .banner-content {
-    width: 50%;
+    flex-grow: 1;
 }
 
 .banner-content h1 {
@@ -165,11 +165,11 @@ header button:hover {}
 }
 
 .banner-images {
-    width: 50%;
+    flex-grow: 1;
 }
 
 .banner-images img {
-    /* width: 600px; */
+    width: 650px;
 }
 
 
