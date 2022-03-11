@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+    body {}
+    .banner-section .flex {
+        /* display: none; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px;
+        padding: 0 24px;
+    }
+    /* Header Start */
+    header {
+        display: none;
+    }
+    /* Header End */
+    /* banner-section */
+    .banner-content {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* display: none; */
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        /* display: none; */
+    }
+    .banner-images {
+        order: 1;
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-images img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-content button {
+        align-items: center;
+    }
+    .banner-content button {}
+    /* Players Section */
+    .players-section {
+        display: none;
+    }
+    /* Highlight Section */
+    .highlight-section {
+        display: none;
+    }
+    /* Practise Videoes Section */
+    .practise-section {
+        display: none;
+    }
+    /* Newsletter Section */
+    .newsletter-section {
+        display: none;
+    }
+    /* Footer */
+    footer {
+        display: none;
+    }
+}
