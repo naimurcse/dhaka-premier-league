@@ -77,7 +77,25 @@
     }
     /* Practise Videoes Section */
     .practise-section {
-        display: none;
+        /* display: none; */
+    }
+    .practise-videoes {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 0 24px;
+    }
+    .practise-video.video-1,
+    .practise-video.video-2,
+    .practise-video.video-3,
+    .practise-video.video-4,
+    .practise-video.video-5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .practise-video {
+        padding: 15px;
+        box-shadow: 0px 0px 24px rgb(0 0 0 / 15%);
     }
     /* Newsletter Section */
     .newsletter-section {
