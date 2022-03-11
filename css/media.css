@@ -1,3 +1,143 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+    body {
+        /* background-color: green; */
+    }
+    .container {
+        width: 100%;
+    }
+    .banner-section .flex {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 24px;
+    }
+    header .flex {
+        justify-content: center;
+    }
+    header button {
+        display: none;
+    }
+    /* Header Start */
+    header {
+        /* display: none; */
+    }
+    /* Header End */
+    /* banner-section */
+    .banner-content {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .banner-images {
+        order: 1;
+        margin-bottom: 50px;
+    }
+    .banner-images img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .banner-content button {
+        align-items: center;
+    }
+    .banner-content button {}
+    /* Players Section */
+    .players-section {
+        /* display: none; */
+        padding: 0 24px;
+    }
+    .players {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+    .player {
+        padding: 20px;
+        box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+    }
+    /* Highlight Section */
+    .highlight-section {
+        /* display: none; */
+        padding: 0 24px;
+        text-align: center;
+    }
+    .highlight-section .flex {
+        flex-direction: column;
+        /* gap: 0; */
+    }
+    .highlight-content {
+        padding: 30px 0;
+        order: 2;
+    }
+    .highlight-image {
+        order: 1;
+    }
+    .highlight-content h2 {
+        width: 100%;
+    }
+    .highlight-content p {
+        width: 100%;
+    }
+    .highlight-image img {
+        padding: 0;
+        margin-top: 25px;
+    }
+    /* Practise Videoes Section */
+    .practise-section {
+        /* display: none; */
+    }
+    .practise-videoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        padding: 0 24px;
+    }
+    .practise-video.video-1,
+    .practise-video.video-3,
+    .practise-video.video-5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .practise-video.video-2,
+    .practise-video.video-4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .practise-video {
+        padding: 15px;
+        box-shadow: 0px 0px 24px rgb(0 0 0 / 15%);
+    }
+    /* Newsletter Section */
+    .newsletter-section {
+        /* display: none; */
+    }
+    .newsletter-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+        padding: 0 24px;
+        text-align: center;
+    }
+    .newsletter-content p {
+        color: var(--primary-color);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 35px;
+    }
+    .newsletter-content h2 {
+        font-size: 3em;
+    }
+    /* Footer */
+    footer {
+        /* display: none; */
+    }
+}
+
+
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (max-width: 992px) {
