@@ -99,7 +99,23 @@
     }
     /* Newsletter Section */
     .newsletter-section {
-        display: none;
+        /* display: none; */
+    }
+    .newsletter-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+        padding: 0 24px;
+        text-align: center;
+    }
+    .newsletter-content p {
+        color: var(--primary-color);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 25px;
+    }
+    .newsletter-content h2 {
+        font-size: 2em;
     }
     /* Footer */
     footer {
