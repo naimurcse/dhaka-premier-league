@@ -113,9 +113,17 @@ header nav ul li a {
     color: #fff;
     font-weight: 500;
     font-size: 16px;
+    border: 2px solid var(--primary-color);
+    padding: 5px 10px;
+    /* color: #4ff0ff; */
+    transition: all 0.4s;
 }
 
-header nav ul li a:hover {}
+header nav ul li a:hover {
+    border: 2px solid #4ff0ff;
+    padding: 5px 10px;
+    color: #4ff0ff;
+}
 
 header button {
     padding: 13px 32px;
@@ -125,7 +133,9 @@ header button {
 
 header button i {}
 
-header button:hover {}
+header button:hover {
+    transform: scale(1.1);
+}
 
 
 /* Header End*/
@@ -158,6 +168,11 @@ header button:hover {}
     background-color: var(--btn-background);
     display: flex;
     align-items: center;
+    display: inline-block;
+}
+
+.banner-content button:hover {
+    transform: scale(1.1);
 }
 
 .banner-content button i {
@@ -170,6 +185,11 @@ header button:hover {}
 
 .banner-images img {
     width: 650px;
+    transition: transform 3s;
+}
+
+.banner-section:hover .banner-images>img {
+    transform: rotate(25deg);
 }
 
 
@@ -228,17 +248,17 @@ header button:hover {}
 }
 
 .highlight-content h2 {
-    font-size: 3em;
-    width: 95%;
+    font-size: 2.5em;
+    width: 100%;
     line-height: 60px;
     margin-bottom: 15px;
 }
 
 .highlight-content p {
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 30px;
     margin-bottom: 45px;
-    width: 80%;
+    width: 84%;
 }
 
 .highlight-content a {
@@ -248,6 +268,10 @@ header button:hover {}
     display: flex;
     align-items: center;
     display: inline-block;
+}
+
+.highlight-content a:hover {
+    transform: scale(1.1);
 }
 
 .highlight-content a i {
@@ -374,9 +398,13 @@ footer {
     color: #969BAB;
     line-height: 36px;
     border-radius: 50%;
+    transition: all 0.3s ease;
 }
 
-.social-icon ul li a:hover {}
+.social-icon ul li a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
 
 .social-icon ul li a i {}
 
